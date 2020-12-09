@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinAPICovid19.Android",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinAPICovid19.iOS", "XamarinAPICovid19\XamarinAPICovid19.iOS\XamarinAPICovid19.iOS.csproj", "{AB99AE80-7804-4B82-B2F5-2851912B47C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinAPICovid19", "XamarinAPICovid19\XamarinAPICovid19\XamarinAPICovid19.csproj", "{DC29C5E5-41C1-4E04-8BDC-406D1983BD5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinAPICovid19", "XamarinAPICovid19\XamarinAPICovid19\XamarinAPICovid19.csproj", "{DC29C5E5-41C1-4E04-8BDC-406D1983BD5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
