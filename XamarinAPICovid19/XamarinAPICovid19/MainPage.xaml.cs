@@ -46,7 +46,7 @@ namespace XamarinAPICovid19
             {
                 Text = "Country List",
                 FontSize = 25,
-                TextColor = Color.DarkCyan
+                TextColor = Color.Purple
             };
             btnCList.Clicked += BtnCList_Clicked;
 
@@ -55,7 +55,7 @@ namespace XamarinAPICovid19
             {
                 Text = "Map",
                 FontSize = 25,
-                TextColor = Color.Blue
+                TextColor = Color.DarkCyan
             };
             btnMap.Clicked += BtnMap_Clicked;
 
@@ -64,7 +64,7 @@ namespace XamarinAPICovid19
             {
                 Text = "Exit",
                 FontSize = 25,
-                TextColor = Color.Black
+                TextColor = Color.Red
             };
             btnExit.Clicked += BtnExit_Clicked;
 
