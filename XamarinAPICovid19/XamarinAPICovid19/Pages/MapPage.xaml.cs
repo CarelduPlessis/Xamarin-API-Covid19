@@ -45,7 +45,7 @@ namespace XamarinAPICovid19
             };
             findLocationBTN.Clicked += getLoction; // get the country location
 
-            // add all the elements to the main layout
+            // add all the elements to the main layout 
             mainStackLayout.Children.Add(map);
             mainStackLayout.Children.Add(country);
             mainStackLayout.Children.Add(findLocationBTN);
