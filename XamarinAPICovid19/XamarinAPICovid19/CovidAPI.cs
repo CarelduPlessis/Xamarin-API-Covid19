@@ -25,7 +25,6 @@ namespace XamarinAPICovid19
             };
             using (var response = await client.SendAsync(request))
             {
-                //Console.WriteLine("**********************************");
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
                 //richTextBox1.Text = body;
@@ -50,7 +49,6 @@ namespace XamarinAPICovid19
             };
             using (var response = await client.SendAsync(request))
             {
-                //Console.WriteLine("**********************************");
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
                 //richTextBox1.Text = body;
@@ -75,7 +73,6 @@ namespace XamarinAPICovid19
             };
             using (var response = await client.SendAsync(request))
             {
-                //Console.WriteLine("**********************************");
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
                 //richTextBox1.Text = body;
