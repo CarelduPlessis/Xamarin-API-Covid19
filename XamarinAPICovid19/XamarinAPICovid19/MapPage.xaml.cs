@@ -50,14 +50,9 @@ namespace XamarinAPICovid19
             mainStackLayout.Children.Add(findLocationBTN);
 
             Content = mainStackLayout;
-            Console.WriteLine("***************************************");
-            Console.WriteLine("Hello0");
-            Console.WriteLine("***************************************");
-            Thread.Sleep(2000);
-            Console.WriteLine("***************************************");
-            Console.WriteLine("Hello1");
-            Console.WriteLine("***************************************");
-            _ = FindTheLocation("", "", "New Zealand");
+            
+           // Thread.Sleep(2000);
+           // _ = FindTheLocation("", "", "New Zealand");
 
         }
 
@@ -75,9 +70,7 @@ namespace XamarinAPICovid19
                 //URL: https://mallibone.com/post/xamarin-maps-addresses-geocoords
 
                 var locations = await Geocoding.GetLocationsAsync($"{street},{city},{country}");
-                Console.WriteLine("***************************************");
-                Console.WriteLine("Hello2");
-                Console.WriteLine("***************************************");
+
                 var location = locations?.FirstOrDefault();
 
                 if (location == null)
@@ -97,11 +90,6 @@ namespace XamarinAPICovid19
                 recovered = placeholderRecovered.Result;
                 confirmed = placeholderConfirmed.Result;
 
-                Console.WriteLine("***************************************");
-                Console.WriteLine("Hello3");
-                Console.WriteLine("***************************************");
-
-
                 CreatePins(country);
                 MoveTo();
             }
@@ -114,9 +102,6 @@ namespace XamarinAPICovid19
 
         public void CreatePins(string country)
         {
-            Console.WriteLine("***************************************");
-            Console.WriteLine("Hello4");
-            Console.WriteLine("***************************************");
             Pin pin = new Pin()
             {
                 Label = "Deaths: " + deaths + " " + "Recovered: " + recovered + " " + "Confirmed: " + confirmed,
@@ -132,7 +117,7 @@ namespace XamarinAPICovid19
             if (map.VisibleRegion != null)
             {
                 Console.WriteLine("***************************************");
-                Console.WriteLine("Hello5");
+                Console.WriteLine("Hello");
                 Console.WriteLine("***************************************");
                 map.MoveToRegion(new MapSpan(position, position.Latitude, position.Longitude));
             }
