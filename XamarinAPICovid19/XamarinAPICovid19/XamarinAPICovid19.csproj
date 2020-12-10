@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -18,13 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="CountryListPage.xaml">
+    <EmbeddedResource Update="Pages\CountryListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MapPage.xaml">
+    <EmbeddedResource Update="Pages\MapPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="SubPage.xaml">
+    <EmbeddedResource Update="Pages\SubPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
