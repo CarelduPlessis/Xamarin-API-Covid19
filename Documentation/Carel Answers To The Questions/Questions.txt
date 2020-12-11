@@ -53,7 +53,7 @@ Answers
 ************************************************************************************************************
 Agile / Scrum 
 ************************************************************************************************************
-1. 
+1. Scrum is a lightweight agile project management framework that is four weeks long. The first week is planning. The second week is designing. The third week is development. The last week is testing. Every day there will be a Scrum Meeting to find out how we are progressing and where we need to go. This gives the team flixablity to deal with problems in a reactive environment. We can go back to any of the four stages to fix things or add when we need to.
 	
 2.
 	
