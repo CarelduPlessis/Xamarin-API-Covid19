@@ -27,7 +27,6 @@ namespace XamarinAPICovid19
             {
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
-                //richTextBox1.Text = body;
                 var MyData = JsonConvert.DeserializeObject<Root>(body);
                 return MyData.data.deaths;
             }
@@ -51,7 +50,6 @@ namespace XamarinAPICovid19
             {
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
-                //richTextBox1.Text = body;
                 var MyData = JsonConvert.DeserializeObject<Root>(body);
                 return MyData.data.recovered;
             }
@@ -75,7 +73,6 @@ namespace XamarinAPICovid19
             {
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
-                //richTextBox1.Text = body;
                 var MyData = JsonConvert.DeserializeObject<Root>(body);
                 return MyData.data.confirmed;
             }
