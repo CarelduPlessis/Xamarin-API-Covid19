@@ -82,7 +82,7 @@ We can go back to any of the four stages (at any stage of the project) to fix th
 	
 7.The Planning stage. Because Agile is all about speed, and this makes it hard to have a clear overall view of the project. This can lead to confusion and many changes to be    made.
 	
-8.
+8. I would like to have more time put in to the planing to make sure that the customers vision/idea of the project is well documented before starting to implementing the project.
 
 **
 ************************************************************************************************************
