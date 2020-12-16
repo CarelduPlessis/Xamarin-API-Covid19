@@ -53,21 +53,36 @@ Answers
 ************************************************************************************************************
 Agile / Scrum 
 ************************************************************************************************************
-1. 
+1. Scrum is a lightweight Agile project management framework. 
+
+Stages: 
+1.) planning
+2.) designing
+3.) development
+4.) testing
+
+After all these stages are completed the product will be shiped.
+
+Every day there will be a Scrum Meeting to find out how we are progressing and where we need to go. 
+
+This gives the team flixablity to deal with problems in a reactive environment. 
+
+We can go back to any of the four stages (at any stage of the project) to fix things or add things when we need to. 
 	
-2.
 	
-3.
+2. This methodology is very effective in a reasonably sized group of people as the key to the effectiveness lies in managing the group and each member filling their role in the project like Scrum Master, Product Owner, and Team.
 	
-4.
+3. Easy to manage the group and the project as we all know what stage we are in the project and what we are supposed to do in the project. 
+	
+4. The Agile is not effective if there are not enough members to fill in the roles of the Scrum methodology.
 	
 5. The Daily Scrum Meetings.
 	
 6. They helped the team and me find out how we are progressing and where we need to go.
 	
-7.
+7.The Planning stage. Because Agile is all about speed, and this makes it hard to have a clear overall view of the project. This can lead to confusion and many changes to be    made.
 	
-8.	
+8. I would like to have more time put into the planning to make sure that the customer's vision/idea of the project is well documented before starting to implementing the project.
 
 **
 ************************************************************************************************************
