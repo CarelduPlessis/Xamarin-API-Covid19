@@ -19,6 +19,10 @@ namespace XamarinAPICovid19.Droid
 
             base.OnCreate(savedInstanceState);
 
+            // initialize the Xamarin Maps
+            //Xamarin.FormsMaps.Init(MainActivity, Bundle);
+            Xamarin.FormsMaps.Init(this, savedInstanceState);
+
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

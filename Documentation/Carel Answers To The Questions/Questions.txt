@@ -1,0 +1,135 @@
+------------------------------------------------------------------------------------------------------------
+
+Questions 
+
+------------------------------------------------------------------------------------------------------------
+
+************************************************************************************************************
+Agile / Scrum
+************************************************************************************************************ 
+1.	What did you learn about how the Agile and Scrum methodologies operate?
+2.	In practice how effective did you find this methodology?
+3.	What did you find was the strength of it?
+4.	What were its weaknesses?
+5.	What were the best features of the process? 
+6.	How did they appeal to you?
+7.	What was the worst feature of the process
+8.	How would you change them?
+
+************************************************************************************************************
+Group work
+************************************************************************************************************
+1.	What did you enjoy about this style of programming?
+2.	What are the downsides for you of group work?
+3.	How did this session change your opinion of working in industry?
+
+************************************************************************************************************
+Source Control
+************************************************************************************************************
+1.	What form of Source Control did you use?
+2.	What were its strengths? 
+3.	What were its weaknesses?
+4.	How effective as a source control did you find it?
+5.	If you had to use it again what would you change?
+
+************************************************************************************************************
+Other
+************************************************************************************************************
+1.	Do you feel that this has been a worthwhile experiment? 
+2.	Why? Why not?
+3.	If you had to give yourself a percent grade for your contribution to the project, and the process, what would it be? Bearing in mind that you might have produced little, yet done the hard yards. Or you made heaps, but it was really easy.
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+Answers
+
+------------------------------------------------------------------------------------------------------------
+**
+************************************************************************************************************
+Agile / Scrum 
+************************************************************************************************************
+1. Scrum is a lightweight Agile project management framework. 
+
+Stages: 
+1.) planning
+2.) designing
+3.) development
+4.) testing
+
+After all these stages are completed the product will be shiped.
+
+Every day there will be a Scrum Meeting to find out how we are progressing and where we need to go. 
+
+This gives the team flixablity to deal with problems in a reactive environment. 
+
+We can go back to any of the four stages (at any stage of the project) to fix things or add things when we need to. 
+	
+	
+2. This methodology is very effective in a reasonably sized group of people as the key to the effectiveness lies in managing the group and each member filling their role in the project like Scrum Master, Product Owner, and Team.
+	
+3. Easy to manage the group and the project as we all know what stage we are in the project and what we are supposed to do in the project. 
+	
+4. The Agile is not effective if there are not enough members to fill in the roles of the Scrum methodology.
+	
+5. The Daily Scrum Meetings.
+	
+6. They helped the team and me find out how we are progressing and where we need to go.
+	
+7.The Planning stage. Because Agile is all about speed, and this makes it hard to have a clear overall view of the project. This can lead to confusion and many changes to be    made.
+	
+8. I would like to have more time put into the planning to make sure that the customer's vision/idea of the project is well documented before starting to implementing the project.
+
+**
+************************************************************************************************************
+Group work
+************************************************************************************************************
+1. It's Comfortable and Easy as you can rely on your team to help you solve the problem when you can't find the solution.
+
+2. You need to work at the same speed as your team members, not too fast and not too slow. 
+   You can only work on what you have being assigned to do.
+
+3. I am now looking forward with excitement to work in the industry.
+
+**
+************************************************************************************************************
+Source Control
+************************************************************************************************************
+1. We used Github.
+
+2. Easy to share the project and colaborate with the team (most of the time).
+
+3. Conflict management could be improved.
+
+4. its Okey - some time it can be confusing (due to lack of experience in using Github)
+
+5. I would invite my team as collaborators and tell them to create branches to work off.
+
+**
+************************************************************************************************************
+Other
+************************************************************************************************************
+1. Yes
+
+2. This gave me the opportunity to gain experience in collaborating with a team on GitHub and learning about Github.
+
+3. My percent grade for contributing to the project is 33%.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

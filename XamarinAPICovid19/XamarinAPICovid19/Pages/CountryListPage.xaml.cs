@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using APIwithXamarin3.Pages;
+using XamarinAPICovid19;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace APIwithXamarin3
+namespace XamarinAPICovid19
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CountryListPage : ContentPage
@@ -44,7 +44,7 @@ namespace APIwithXamarin3
             CountryArr[19] = "USA";
 
             Label ThisLabel;
-            //Image ThisImage;
+            Image ThisImage;
 
             //Making Grid
             Grid grid = new Grid();
@@ -57,7 +57,7 @@ namespace APIwithXamarin3
                 string Country = CountryArr[CountryCount];
 
                 //Row 1
-                //Country 
+                //Country
                 BoxView CountryBox = new BoxView
                 {
                     Color = Color.Gray
@@ -183,7 +183,6 @@ namespace APIwithXamarin3
                             GetDeathNum(Country, ThisLabel);
                             break;
 
-                        /*
                         //Death Image
                         case 1:
                             grid.Children.Add(ThisImage = new Image()
@@ -194,7 +193,6 @@ namespace APIwithXamarin3
                             }, c, r);
                             GiveArrow(3, ThisImage, false);
                             break;
-                        */
 
                         //Confirmed Num
                         case 2:
@@ -207,7 +205,6 @@ namespace APIwithXamarin3
                             GetConfirmNum(Country, ThisLabel);
                             break;
 
-                        /*
                         //Confirmed Image
                         case 3:
                             grid.Children.Add(ThisImage = new Image()
@@ -218,7 +215,6 @@ namespace APIwithXamarin3
                             }, c, r);
                             GiveArrow(175, ThisImage, false);
                             break;
-                        */
 
                         //Recovered Num
                         case 4:
@@ -231,27 +227,26 @@ namespace APIwithXamarin3
                             GetRecoverNum(Country, ThisLabel);
                             break;
 
-                            /*
-                            //Recovered Image
-                            case 5:
-                                grid.Children.Add(ThisImage = new Image()
-                                {
-                                    HeightRequest = 25,
-                                    HorizontalOptions = LayoutOptions.Center,
-                                    VerticalOptions = LayoutOptions.Center
-                                }, c, r);
-                                GiveArrow(7, ThisImage, true);
-                                break;
-                            */
+                        //Recovered Image
+                        case 5:
+                            grid.Children.Add(ThisImage = new Image()
+                            {
+                                HeightRequest = 25,
+                                HorizontalOptions = LayoutOptions.Center,
+                                VerticalOptions = LayoutOptions.Center
+                            }, c, r);
+                            GiveArrow(7, ThisImage, true);
+                            break;
                     } //Switch For Columns ENDS
                 } //The Data Columns ENDS
-                //Row 3 ENDS
+                  //Row 3 ENDS
 
                 CountryCount++;
 
+
             } //For (Country) Loop ENDS
 
-
+            //Content = grid;
 
             //Adds Scroll
             ScrollView scrollview = new ScrollView { Content = grid };
@@ -277,7 +272,6 @@ namespace APIwithXamarin3
             RecoverLbl.Text = Convert.ToString(recoverNum);
         }
 
-        /*
         //Giving Suitable Image Based on Difference
         public void GiveArrow(int Diff, Image ThisImg, bool MoreIsGood)
         {
@@ -314,23 +308,5 @@ namespace APIwithXamarin3
                 ThisImg.Source = DownColor + "BigDown.png";
             }
         } //Giving Suitable Image Based on Difference ENDS
-        */
     }
 }
-//3-12-2020
-//I made the Country List Show 20 selected Countries and format them accordingly.
-//I tried to add data (not working yet)
-//I made a function to show an image relating as to how things are going
-
-//9-12-2020
-//Trying to get actual data of country showing(not working yet)
-//The Data is showing all total Deaths, Cases & Recovered
-//How to show only today?
-//Recover is showing same num as DEATH why?
-//Fixed Recover showing death num.
-//Images have disappeared and I am unable to re-place them in drawable (system file not found?)
-//Loading time takes forever. Issue?
-
-//10-12-2020 (Sick at Home)
-//App is still showing all total deaths, how do I only see changes from today?
-//Emailed Team, Total is only necessary. Thus Page is complete and Images are Void
