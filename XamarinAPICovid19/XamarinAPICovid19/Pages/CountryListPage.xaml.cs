@@ -231,18 +231,18 @@ namespace APIwithXamarin3
                             GetRecoverNum(Country, ThisLabel);
                             break;
 
-                        /*
-                        //Recovered Image
-                        case 5:
-                            grid.Children.Add(ThisImage = new Image()
-                            {
-                                HeightRequest = 25,
-                                HorizontalOptions = LayoutOptions.Center,
-                                VerticalOptions = LayoutOptions.Center
-                            }, c, r);
-                            GiveArrow(7, ThisImage, true);
-                            break;
-                        */
+                            /*
+                            //Recovered Image
+                            case 5:
+                                grid.Children.Add(ThisImage = new Image()
+                                {
+                                    HeightRequest = 25,
+                                    HorizontalOptions = LayoutOptions.Center,
+                                    VerticalOptions = LayoutOptions.Center
+                                }, c, r);
+                                GiveArrow(7, ThisImage, true);
+                                break;
+                            */
                     } //Switch For Columns ENDS
                 } //The Data Columns ENDS
                 //Row 3 ENDS
@@ -259,7 +259,8 @@ namespace APIwithXamarin3
         } //Loading CountryLists() Page ENDS
 
 
-        public async void GetDeathNum(string Country, Label DeathLbl) {
+        public async void GetDeathNum(string Country, Label DeathLbl)
+        {
             var deathNum = await CAPI.ReturnDeaths(Country);
             DeathLbl.Text = Convert.ToString(deathNum);
         }
