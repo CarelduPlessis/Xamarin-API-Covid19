@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XamarinAPICovid19;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -44,7 +43,7 @@ namespace XamarinAPICovid19
             CountryArr[19] = "USA";
 
             Label ThisLabel;
-            Image ThisImage;
+            //Image ThisImage;
 
             //Making Grid
             Grid grid = new Grid();
@@ -57,7 +56,7 @@ namespace XamarinAPICovid19
                 string Country = CountryArr[CountryCount];
 
                 //Row 1
-                //Country
+                //Country 
                 BoxView CountryBox = new BoxView
                 {
                     Color = Color.Gray
@@ -183,6 +182,7 @@ namespace XamarinAPICovid19
                             GetDeathNum(Country, ThisLabel);
                             break;
 
+                        /*
                         //Death Image
                         case 1:
                             grid.Children.Add(ThisImage = new Image()
@@ -193,6 +193,7 @@ namespace XamarinAPICovid19
                             }, c, r);
                             GiveArrow(3, ThisImage, false);
                             break;
+                        */
 
                         //Confirmed Num
                         case 2:
@@ -205,6 +206,7 @@ namespace XamarinAPICovid19
                             GetConfirmNum(Country, ThisLabel);
                             break;
 
+                        /*
                         //Confirmed Image
                         case 3:
                             grid.Children.Add(ThisImage = new Image()
@@ -215,6 +217,7 @@ namespace XamarinAPICovid19
                             }, c, r);
                             GiveArrow(175, ThisImage, false);
                             break;
+                        */
 
                         //Recovered Num
                         case 4:
@@ -227,26 +230,27 @@ namespace XamarinAPICovid19
                             GetRecoverNum(Country, ThisLabel);
                             break;
 
-                        //Recovered Image
-                        case 5:
-                            grid.Children.Add(ThisImage = new Image()
-                            {
-                                HeightRequest = 25,
-                                HorizontalOptions = LayoutOptions.Center,
-                                VerticalOptions = LayoutOptions.Center
-                            }, c, r);
-                            GiveArrow(7, ThisImage, true);
-                            break;
+                            /*
+                            //Recovered Image
+                            case 5:
+                                grid.Children.Add(ThisImage = new Image()
+                                {
+                                    HeightRequest = 25,
+                                    HorizontalOptions = LayoutOptions.Center,
+                                    VerticalOptions = LayoutOptions.Center
+                                }, c, r);
+                                GiveArrow(7, ThisImage, true);
+                                break;
+                            */
                     } //Switch For Columns ENDS
                 } //The Data Columns ENDS
-                  //Row 3 ENDS
+                //Row 3 ENDS
 
                 CountryCount++;
 
-
             } //For (Country) Loop ENDS
 
-            //Content = grid;
+
 
             //Adds Scroll
             ScrollView scrollview = new ScrollView { Content = grid };
@@ -272,6 +276,7 @@ namespace XamarinAPICovid19
             RecoverLbl.Text = Convert.ToString(recoverNum);
         }
 
+        /*
         //Giving Suitable Image Based on Difference
         public void GiveArrow(int Diff, Image ThisImg, bool MoreIsGood)
         {
@@ -308,5 +313,6 @@ namespace XamarinAPICovid19
                 ThisImg.Source = DownColor + "BigDown.png";
             }
         } //Giving Suitable Image Based on Difference ENDS
+        */
     }
 }
